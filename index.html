@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+    <header class="ancho">
+        <figure><img src="imagenes/pullrequest-logo.svg" alt=""></figure>
+    </header> <br>
+    <div class="btn_menu">
+        <a href="#" id="icono_menu"> <i class="fa-solid fa-bars"></i></a>
+    </div>
+    <section class="menu ancho" id="menu_X">
+    <nav class="ancho">
+        <ul>
+        <li><a href='#'>Inicio</a></li>
+        <li><a href='#'>Empresas</a></li>
+        <li><a href='#'>Servicios</a></li>
+        <li><a href='#'>Clientes</a></li>
+        <li><a href="#">Ubicación</a></li>
+        <li><a href="#">Contactanos</a></li>
+        </ul>
+    </nav>  <br>
+    </section>
+    <section class="ancho info">
+        <article>
+            <h2>Creación e una página web</h2>
+            <h3>Curso básico HTML5 y CSS3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi explicabo quidem possimus natus voluptate fugit deserunt, sit ab iste quos quisquam maiores corporis. Laudantium deleniti accusantium omnis eligendi magnam soluta?</p> <br>
+            <a href="#">Leer más</a>
+        </article>
+        <figure>
+            <img src="imagenes/foto_pullrequest.svg" alt="">
+        </figure>
+    </section> <br>
+    <footer class="ancho"> <br>
+        <h4>@eduardocauich</h4>
+    </footer>
+    <script>
+        $("#icono_menu").click(function(){
+            $("#menu_X").slideToggle();
+        })
+    </script>
+</body>
+</html>
